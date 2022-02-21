@@ -1,0 +1,112 @@
+{
+	"preliminary": [
+		{
+			"id" : 1,
+			"text" : "What best describes the level of pain you are experiencing?",
+			"answers" : [
+				{
+					"id" : 1,
+					"text" : "Excruciating pain",
+					"indicates" : {
+						"cluster" : 1,
+						"migraine" : 0,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 2,
+					"text" : "Severe throbbing pain/pulsing sensation",
+					"indicates" : {
+						"migraine" : 1,
+						"cluster" : 0,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 3,
+					"text" : "Sensation of tightness",
+					"indicates" : {
+						"tension" : 1,
+						"migraine" : 0,
+						"cluster" : 0
+					}
+				}
+			]
+		},
+		{
+			"id" : 2,
+			"text" : "Where is the pain most commonly located?",
+			"answers" : [
+				{
+					"id" : 1,
+					"text" : "Behind/around one eye or along the face/neck",
+					"indicates" : {
+						"cluster" : 1,
+						"migraine" : 0.25,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 2,
+					"text" : "One side of the head",
+					"indicates" : { 
+						"migraine" : 1,
+						"cluster" : 0.25,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 3,
+					"text" : "Across the forehead, the sides of your head, or behind your head",
+					"indicates" : {
+						"tension" : 1,
+						"migraine" : 0.25,
+						"cluster" : 0
+					}
+				}
+			]
+		},
+		{
+			"id" : 3,
+			"text" : "How long have you been experiencing the headache?",
+			"answers" : [
+				{
+					"id" : 1,
+					"text" : "A few hours",
+					"indicates" : {
+						"cluster" : 0,
+						"migraine" : 0.25,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 2,
+					"text" : "A few days",
+					"indicates" : { 
+						"migraine" : 1,
+						"cluster" : 0.25,
+						"tension" : 0
+					}
+				},
+				{
+					"id" : 3,
+					"text" : "A few weeks",
+					"indicates" : {
+						"tension" : 1,
+						"migraine" : 0.25,
+						"cluster" : 0
+					}
+				},
+				{
+					"id" : 4,
+					"text" : "A few months",
+					"indicates" : {
+						"tension" : 1,
+						"migraine" : 0.25,
+						"cluster" : 0
+					}
+				}
+			]
+		}
+	]
+}
